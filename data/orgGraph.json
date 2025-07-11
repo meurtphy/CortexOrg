@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    { "id": "Projet_Alpha", "type": "Projet", "name": "Alpha" },
+    { "id": "Pierre",       "type": "Personne", "role": "Développeur" },
+    { "id": "LibC",         "type": "Lib", "name": "LibC" }
+  ],
+  "edges": [
+    { "source": "Pierre", "relation": "maintient", "target": "LibC" },
+    { "source": "LibC",   "relation": "utilisé_par", "target": "Projet_Alpha" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "cortexorg",
+  "version": "1.0.0",
+  "description": "CortexOrg – IA de cartographie organisationnelle logique et vectorielle",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meurtphy/CortexOrg.git"
+  },
+  "author": "Meurtphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meurtphy/CortexOrg/issues"
+  },
+  "homepage": "https://github.com/meurtphy/CortexOrg#readme",
+  "keywords": [
+    "IA",
+    "knowledge-graph",
+    "RH",
+    "faiss",
+    "GPT",
+    "organisation",
+    "openai"
+  ],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "openai": "^5.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

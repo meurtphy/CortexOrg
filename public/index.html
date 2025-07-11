@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CortexOrg – Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CortexOrg – Proof of Concept</h1>
+
+  <!-- Zone d’ingestion -->
+  <section class="card">
+    <h2>Ingester un texte</h2>
+    <textarea id="inputText" rows="6" placeholder="Colle ici une offre RH, un mail, etc."></textarea>
+    <button id="btnIngest">Analyser & Injecter</button>
+    <p id="ingestStatus"></p>
+  </section>
+
+  <!-- Boutons rapides -->
+  <section class="card">
+    <h2>Requêtes rapides</h2>
+    <button class="action" data-endpoint="/api/query/projects-without-lead">
+      Projets sans lead
+    </button>
+    <button class="action" data-endpoint="/api/rules/run">
+      Exécuter les règles
+    </button>
+    <button class="action" data-endpoint="/api/query/graph">
+      Voir le graphe complet
+    </button>
+  </section>
+
+  <!-- Résultats -->
+  <section class="card" id="resultBox" hidden>
+    <h2>Résultats</h2>
+    <pre id="resultPre"></pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

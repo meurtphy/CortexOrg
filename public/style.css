@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f4f5f7;
+  color: #222;
+}
+h1 { margin-top: 0; }
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+textarea {
+  width: 100%;
+  resize: vertical;
+  margin-bottom: .5rem;
+}
+button {
+  padding: .4rem .8rem;
+  border: none;
+  border-radius: 4px;
+  background: #006cff;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover { background: #0052c2; }
+#resultPre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
